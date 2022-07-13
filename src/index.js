@@ -1,10 +1,10 @@
 import React, { StrictMode } from "react";
 import { render } from "react-dom";
-import Providers from "./providers";
+import GithubProvider from "./providers";
 
 render(
 	<StrictMode>
-		<Providers />
+		<GithubProvider />
 	</StrictMode>,
 	document.querySelector("#root")
 );
